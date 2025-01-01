@@ -1,4 +1,4 @@
-import { hasAccess, User } from './task.ts';
+import { hasAccess, User, UserPermission } from './task.ts';
 
 const userEditor: User = {
   role: 'edtor',

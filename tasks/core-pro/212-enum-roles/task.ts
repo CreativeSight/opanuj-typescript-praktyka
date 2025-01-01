@@ -1,6 +1,15 @@
-export enum UserPermission {}
+export enum UserPermission {
+  READ = 'READ',
+  WRITE = 'WRITE',
+  DELETE = 'DELETE',
+  VIEW = 'VIEW',
+}
 
-export enum UserRole {}
+export enum UserRole {
+  ADMIN = 'ADMIN',
+  EDITOR = 'EDITOR',
+  VIEWER = 'VIEWER',
+}
 
 export interface User {
   role: string;
